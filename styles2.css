@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family:"Montserrat",
+    sans-serif;
+
+}
+:root {
+    --primary-color:#ea580c;
+    --green:#34d399;
+    --blue:#4f46e5;
+    --offwhite:#e2e8f0;
+    
+}
+.navigation {
+    background-color:#ea580c;
+    color:white;
+    padding:1rem;
+    border-bottom-left-radius:1rem;
+}
+.navigation .link{
+    color:white;
+}
+.navigation .navpills{
+    text-align:right;
+}
+.list-item-inline{
+    display:inline;
+}
+.navigation .nav-brand{
+    font-weight:bold;
+    font-size:1.1rem;
+}
+
+.link{
+    text-decoration:none;
+    padding:0.5rem 1rem;
+}
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius:0.5rem;
+    color:white;
+
+}
+.link-secondary{
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+}
+.hero{
+    padding:2rem;
+}
+.hero .hero-image{
+    max-width:350px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading{
+    color:var(--blue);
+    text-align:center;
+    padding-top:1rem;
+    margin-left:5rem;
+}
+.hero .hero-heading .heading-inverted{
+      color:var(--primary-color);
+      
+}
+.container{
+    padding:0rem 1rem;
+}
+.container-center{
+    max-width:600px;
+    margin:auto;
+}
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color:var(--offwhite);
+}
+/*footer*/
+footer{
+    background-color:var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:white;
+    border-top-right-radius:1rem;
+}
+.footer .footer-header{
+    font-weight:bold;
+    font-size:large;
+
+}
+.footer .link{
+    color:black;
+}
+.footer ul{
+    padding-inline-start:0px;
+}
+.top{
+    color:var(--primary-color);
+}
+.chandra{
+    background-color:var(--offwhite);
+}
