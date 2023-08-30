@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mark Five</title>
+    <link href="/styles2.css" rel="stylesheet"/>
+    
+
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand"> talhaaquil.in</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="components.html">HOME</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projectslist.html">PROJECTS</a>
+            </li>
+            <li class="list-item-inline"> 
+                 <a class="link" href="bloglist.html">BLOGS</a>
+            </li>
+            
+        </ul>
+        </nav>
+    
+    <header class="hero">
+      <h1 class="hero-heading">See <span class="heading-inverted">my blogs</span></h1>
+    </header>
+    <section class="section"> 
+       <div class="container container-center">
+       <h1 class="top">Chandrayaan-3: India lunar rover Pragyaan takes a walk on the Moon</h1>
+       <h2>August 2023</h2>
+       <p>India's Moon rover has taken first steps on the lunar surface a day after the country made history by becoming the first to land near the south pole. Chandrayaan-3's rover "ramped down" from the lander and "India took a walk on the Moon!", the space agency said. The Vikram lander successfully touched down as planned on Wednesday evening. With this, India joins an elite club of countries to achieve a soft landing on the Moon, after the US, the former Soviet Union and China.</p>
+       <a href="blog1.html" class="link link-primary">Read more.</a>
+       </div>
+    </section>
+    <section class="section"> 
+        <div class="container container-center">
+        <h1 class="top">Blog no. 2</h1>
+        <p>This is my second blog..</p>
+        <a href="blog2.html" class="link link-primary">Read more.</a>
+        </div>
+     </section>
+     <section class="section"> 
+        <div class="container container-center">
+        <h1 class="top">Blog no. 3</h1>
+        <p>This is my third blog.</p>
+        <a href="blog3.html" class="link link-primary">Read more.</a>
+        </div>
+     </section>
+     <footer class="footer">
+        <div class="footer-header" >Connect with me on social media</div>
+            <ul class="social-links">
+                <li class="list-item-inline">
+                    <a href="/" class="link">
+                    Twitter
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="/" class="link">
+                     Faccebook
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="/" class="link">
+                    Instagram
+                    </a>
+                </li>
+            </ul>
+     </footer>
+</body>
+</html>
